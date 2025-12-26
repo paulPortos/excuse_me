@@ -10,8 +10,120 @@
         {
             "category": "school",
             "tone": "formal",
+            "length": "short",
+            "text": "I regret to inform you that I cannot attend {event} due to my academic schedule.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "formal",
+            "length": "short",
+            "text": "My studies require my attention on {day}, and I will be unable to attend {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "formal",
+            "length": "short",
+            "text": "I have an examination to prepare for and cannot attend {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "formal",
+            "length": "short",
+            "text": "Academic commitments prevent me from attending {event}. My apologies.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "formal",
+            "length": "short",
+            "text": "I must decline {event} due to pressing academic responsibilities.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "formal",
+            "length": "short",
+            "text": "An academic deadline precludes my attendance at {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "formal",
+            "length": "short",
+            "text": "I have coursework due on {day} and cannot join {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "formal",
+            "length": "short",
+            "text": "My academic schedule conflicts with {event}. Please excuse my absence.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "formal",
+            "length": "short",
+            "text": "I have a class obligation on {day} that prevents me from attending {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "formal",
             "length": "long",
             "text": "I apologize, but I will not be able to attend {event} on {day}. I have an important exam to prepare for and must dedicate my time to studying. I hope you understand, and I would be happy to reschedule at a more convenient time.",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "formal",
+            "length": "long",
+            "text": "I regret to inform you that academic obligations prevent me from attending {event} on {day}. I have a significant deadline approaching and must prioritize my studies. I hope we can arrange to meet at another time.",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "formal",
+            "length": "long",
+            "text": "Thank you for the invitation to {event}. Unfortunately, I have finals coming up and must dedicate my time to preparation. I hope you understand my situation and we can connect afterward.",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "formal",
+            "length": "long",
+            "text": "I must respectfully decline {event} on {day}. My course load this semester is particularly demanding, and I must focus on my academic responsibilities. I would welcome the opportunity to reschedule.",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "formal",
+            "length": "long",
+            "text": "I am unable to attend {event} due to an important academic deadline on {day}. I apologize for any inconvenience and hope we can find a more suitable time to meet.",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "formal",
+            "length": "long",
+            "text": "Please accept my apologies for being unable to join {event}. I have a research paper due on {day} that requires my full attention. I look forward to connecting with you soon.",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "formal",
+            "length": "long",
+            "text": "I regret that I cannot attend {event} on {day}. My professor has scheduled an important review session that I cannot miss. I hope you understand and we can arrange an alternative.",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "formal",
+            "length": "long",
+            "text": "A mandatory academic seminar on {day} prevents me from attending {event}. I sincerely apologize and hope to reschedule at your earliest convenience.",
             "offersReschedule": true
         },
         {
@@ -24,8 +136,148 @@
         {
             "category": "school",
             "tone": "polite",
+            "length": "short",
+            "text": "I've got a test on {day} so I can't come to {event}. Sorry!",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "short",
+            "text": "School stuff is crazy right now. Can't make it to {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "short",
+            "text": "I have an assignment due on {day}. Sorry I'll miss {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "short",
+            "text": "Finals are killing me right now. Can't do {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "short",
+            "text": "I need to study for my exam. Sorry about {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "short",
+            "text": "Got a paper due on {day}. Can't make {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "short",
+            "text": "I'm drowning in homework. Gonna have to skip {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "short",
+            "text": "Class project is due soon. Missing {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "short",
+            "text": "Study session on {day}. Can't come to {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "short",
+            "text": "I have lecture on {day} and can't attend {event}. Sorry!",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "short",
+            "text": "Midterms are coming up. Need to study instead of going to {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "polite",
             "length": "long",
             "text": "I'm sorry, but I won't be able to make it to {event} on {day}. I have finals coming up and really need to focus on studying. I hope you understand! Let's definitely catch up after exam week.",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "long",
+            "text": "I wish I could come to {event} but I have a huge exam on {day} that I've been studying for. Let's hang out after it's over!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "long",
+            "text": "Thanks for the invite to {event}! Unfortunately, I'm swamped with schoolwork and can't make it on {day}. Rain check?",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "long",
+            "text": "I'm so sorry but I have to skip {event}. My professor just assigned a major project due on {day}. Let's do something after I finish!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "long",
+            "text": "I really wanted to come to {event} but I'm behind on my coursework and need to catch up on {day}. Can we reschedule?",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "long",
+            "text": "School is crushing me right now. I can't make it to {event} because I have a paper due. Let's definitely hang out after finals!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "long",
+            "text": "I've got a group project meeting on {day} that I can't miss. Sorry about {event}! Let's plan something for next week.",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "long",
+            "text": "My study group is meeting on {day} to prep for exams, so I'll have to miss {event}. Hope you have fun though! Let's catch up soon.",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "long",
+            "text": "I can't come to {event} because I have a presentation on {day} that I need to practice for. Let's definitely do something after!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "long",
+            "text": "There's a mandatory lab session on {day} that conflicts with {event}. So bummed to miss it! Let's reschedule.",
             "offersReschedule": true
         },
         {
@@ -38,8 +290,379 @@
         {
             "category": "school",
             "tone": "casual",
+            "length": "short",
+            "text": "Exam week is brutal. Skipping {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "short",
+            "text": "Gotta study. Can't make {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "short",
+            "text": "Homework is destroying me. No {event} for me.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "short",
+            "text": "Test on {day}. Gonna pass on {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "short",
+            "text": "Finals are coming. Can't do anything fun like {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "short",
+            "text": "Professor dropped a surprise assignment. Missing {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "short",
+            "text": "Stuck studying. Can't swing {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "short",
+            "text": "Paper due on {day}. No {event} for me!",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "short",
+            "text": "Library life on {day}. Missing {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "short",
+            "text": "Group project emergency. Skipping {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "short",
+            "text": "Class stuff on {day}. Gotta bail on {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "casual",
             "length": "long",
             "text": "Ugh, I really wanted to come to {event} but I've got this massive assignment due and I haven't even started. Next time for sure though!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "long",
+            "text": "Dude I'm so stressed with school. Can't make {event} because I have an exam on {day}. Let's hang after finals!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "long",
+            "text": "School is killing me right now. Gonna miss {event} because I need to study. Save me a spot next time!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "long",
+            "text": "My prof is evil and gave us a huge paper due on {day}. Can't come to {event}. Let's do something when I'm free!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "long",
+            "text": "Got a test I totally forgot about on {day}. Gotta study instead of going to {event}. Next time!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "long",
+            "text": "Finals are coming up and I'm panicking. Can't do {event} on {day}. Let's celebrate after exams!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "long",
+            "text": "I'm behind on like three assignments. Gonna have to skip {event} and catch up. Rain check?",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "long",
+            "text": "Group project is due on {day} and my group is useless. Can't come to {event}. Hit me up after!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "long",
+            "text": "Have to cram for this exam on {day}. Missing {event} but let's do something fun after I survive!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "long",
+            "text": "Presentation on {day} that I'm totally unprepared for. Gotta skip {event} and practice. Catch you later!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "formal",
+            "length": "short",
+            "text": "I have a thesis deadline that prevents my attendance at {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "formal",
+            "length": "long",
+            "text": "I am currently working on my thesis and have a submission deadline on {day}. As such, I will be unable to attend {event}. I hope to connect with you after my academic obligations are fulfilled.",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "short",
+            "text": "Thesis work is consuming all my time. Can't make {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "long",
+            "text": "I'm deep in thesis mode right now and can't take any breaks. Sorry to miss {event}! Let's hang out once I submit.",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "short",
+            "text": "Thesis deadline. Everything else is canceled!",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "long",
+            "text": "Thesis is due and I'm in full panic mode. Can't do {event} but hit me up in a few weeks when I'm a free human again!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "short",
+            "text": "Lab report due on {day}. Sorry about {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "long",
+            "text": "I have a lab report due that's taking forever. Won't be able to make it to {event} on {day}. Let's plan something after!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "short",
+            "text": "Lab report is killing me. Skipping {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "long",
+            "text": "This lab report is the worst. Can't make {event} because I'll be writing all night. Next time though!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "short",
+            "text": "Office hours with my professor on {day}. Missing {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "long",
+            "text": "I have to meet with my professor during office hours on {day} about my grade. Can't miss it so I'll have to skip {event}. Let's catch up soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "long",
+            "text": "Gotta go beg my professor for extra credit on {day}. Missing {event} but wish me luck! Let's hang after.",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "short",
+            "text": "Research project has me swamped. Can't do {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "long",
+            "text": "My research project is due on {day} and I still have so much to do. Really sorry to miss {event}! Let's definitely reschedule.",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "short",
+            "text": "Research project nightmare. No {event} for me!",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "long",
+            "text": "This research project is never-ending. Can't make {event} on {day}. Freedom is coming soon though - let's hang then!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "short",
+            "text": "Quiz tomorrow and I'm not ready. Skipping {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "long",
+            "text": "I have a surprise quiz tomorrow that I just found out about. Need to study so I can't come to {event}. So sorry! Let's do something this weekend.",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "short",
+            "text": "Pop quiz tomorrow. Studying instead of {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "long",
+            "text": "Prof just announced a quiz for tomorrow and I know nothing. Gotta skip {event} and cram. Pray for me!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "formal",
+            "length": "short",
+            "text": "My academic advisor has scheduled a meeting on {day}. I cannot attend {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "formal",
+            "length": "long",
+            "text": "I have a mandatory meeting with my academic advisor on {day} regarding my course selection. I will therefore be unable to attend {event}. I hope we can reschedule.",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "short",
+            "text": "Advisor meeting on {day}. Can't make {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "long",
+            "text": "I have a meeting with my advisor on {day} to plan next semester. Can't make it to {event} but let's catch up after!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "long",
+            "text": "Gotta meet with my advisor on {day} about registration stuff. Missing {event} but let's do something soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "short",
+            "text": "Tutoring session on {day}. Sorry about {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "long",
+            "text": "I have a tutoring session scheduled on {day} that I really need. Can't skip it for {event} but let's definitely hang out another time!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "short",
+            "text": "Tutor time on {day}. Missing {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "long",
+            "text": "I scheduled a tutor session for {day} because I'm failing. Can't come to {event} but save me a spot next time!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "short",
+            "text": "Academic workshop on {day}. Will miss {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "long",
+            "text": "There's a career workshop on {day} that I signed up for. It conflicts with {event} unfortunately. Let's plan something else soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "long",
+            "text": "Got a workshop thing on {day} that could help me not fail. Skipping {event} but let's hang after!",
             "offersReschedule": true
         }
     ]

@@ -10,8 +10,120 @@
         {
             "category": "work",
             "tone": "formal",
+            "length": "short",
+            "text": "I apologize, but work obligations prevent me from attending {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "formal",
+            "length": "short",
+            "text": "I have a professional commitment on {day} and cannot attend {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "formal",
+            "length": "short",
+            "text": "My work schedule does not permit me to attend {event}. My apologies.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "formal",
+            "length": "short",
+            "text": "I must decline {event} due to urgent work matters.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "formal",
+            "length": "short",
+            "text": "A work deadline prevents me from joining {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "formal",
+            "length": "short",
+            "text": "I have a meeting on {day} that conflicts with {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "formal",
+            "length": "short",
+            "text": "Professional obligations require my presence elsewhere on {day}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "formal",
+            "length": "short",
+            "text": "I will be occupied with work responsibilities and cannot attend {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "formal",
+            "length": "short",
+            "text": "A business matter requires my attention on {day}. I cannot attend {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "formal",
             "length": "long",
             "text": "I regret to inform you that I will be unable to attend {event} on {day}. Due to an urgent work matter that requires my immediate attention, I must respectfully decline. I apologize for any inconvenience this may cause and hope we can find another opportunity to connect.",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "formal",
+            "length": "long",
+            "text": "I appreciate the invitation to {event}. Unfortunately, I have a critical work deadline on {day} that I must prioritize. I hope you understand and that we can arrange to meet at a more suitable time.",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "formal",
+            "length": "long",
+            "text": "Thank you for including me in {event}. Regrettably, my professional responsibilities on {day} prevent my attendance. I would be happy to reschedule at your earliest convenience.",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "formal",
+            "length": "long",
+            "text": "I must respectfully decline {event} on {day}. An important project at work requires my full attention during this time. I hope to join you on a future occasion.",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "formal",
+            "length": "long",
+            "text": "It is with regret that I inform you I cannot attend {event}. My manager has scheduled an urgent meeting on {day} that I cannot miss. I look forward to future opportunities to connect.",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "formal",
+            "length": "long",
+            "text": "I am unable to attend {event} due to a significant work commitment on {day}. I apologize for any inconvenience and hope we can find an alternative time to meet.",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "formal",
+            "length": "long",
+            "text": "A pressing work obligation prevents me from attending {event} on {day}. I sincerely apologize and would welcome the opportunity to reschedule.",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "formal",
+            "length": "long",
+            "text": "I have been assigned to an urgent project that requires my presence on {day}. Therefore, I will be unable to attend {event}. I hope you understand and we can connect soon.",
             "offersReschedule": true
         },
         {
@@ -24,8 +136,148 @@
         {
             "category": "work",
             "tone": "polite",
+            "length": "short",
+            "text": "Work is crazy right now. I can't make it to {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "short",
+            "text": "I've got a meeting on {day}. Sorry about {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "short",
+            "text": "My boss needs me on {day}. Can't make {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "short",
+            "text": "I have to work late on {day}. Missing {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "short",
+            "text": "Project deadline is killing me. Can't do {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "short",
+            "text": "Work stuff came up. Sorry about {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "short",
+            "text": "I've got a presentation on {day}. Can't make {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "short",
+            "text": "Client meeting on {day}. Sorry to miss {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "short",
+            "text": "Got pulled into a work thing. Missing {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "short",
+            "text": "Swamped at work right now. Can't join {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "short",
+            "text": "My schedule at work is packed. Sorry about {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "polite",
             "length": "long",
             "text": "I'm sorry, but I won't be able to make it to {event} on {day}. Something urgent came up at work and I really need to take care of it. I hope you understand, and I'd love to catch up soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "long",
+            "text": "Work has been insane lately and I have a big deadline on {day}. I can't make it to {event} but let's definitely reschedule!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "long",
+            "text": "My boss just dropped a major project on me and I need to work on {day}. Really sorry to miss {event}! Let's catch up soon.",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "long",
+            "text": "I have to work over the weekend to meet a deadline. So bummed to miss {event}! Can we rain check for next week?",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "long",
+            "text": "I've got a super important meeting on {day} that I can't miss. Really wish I could come to {event}! Let's plan something else soon.",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "long",
+            "text": "A client is visiting on {day} and I need to be there. So sorry about {event}! Let's definitely get together another time.",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "long",
+            "text": "I'm on call for work on {day} so I can't make any plans. Missing {event} but let's hang out soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "long",
+            "text": "There's a work emergency I need to handle on {day}. Really sorry to miss {event}! Can we reschedule?",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "long",
+            "text": "I have to cover for a colleague on {day} so I can't make it to {event}. Let's definitely do something when I'm free!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "long",
+            "text": "Work travel on {day} means I'll miss {event}. So bummed! Let's catch up when I'm back in town.",
             "offersReschedule": true
         },
         {
@@ -38,8 +290,365 @@
         {
             "category": "work",
             "tone": "casual",
+            "length": "short",
+            "text": "Work is slammed. Skipping {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "short",
+            "text": "Boss needs me. Can't do {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "short",
+            "text": "Deadline crunch. No {event} for me!",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "short",
+            "text": "Stuck at work. Missing {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "short",
+            "text": "Working late on {day}. Gotta bail on {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "short",
+            "text": "Client stuff came up. Skipping {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "short",
+            "text": "Work emergency. Can't make {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "short",
+            "text": "Meeting on {day}. No {event} for me!",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "short",
+            "text": "Gotta work. Catch ya later at {event}... wait, no I can't!",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "short",
+            "text": "Office stuff. Missing {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "short",
+            "text": "Corporate overlords need me. Skipping {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "casual",
             "length": "long",
             "text": "Hey, really sorry but I can't make it to {event}. My boss just dropped a last-minute project on me and I gotta handle it. Rain check? Let's catch up soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "long",
+            "text": "Work is killing me right now. Can't make {event} on {day}. Let's hang when the chaos dies down!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "long",
+            "text": "Dude, my boss is the worst. Got stuck working on {day} so I'm missing {event}. Let's do something next week!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "long",
+            "text": "Deadline is tomorrow and I'm freaking out. No {event} for me. Save me a seat next time though!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "long",
+            "text": "Got pulled into a client thing on {day}. Can't come to {event}. Coffee next week to make up for it?",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "long",
+            "text": "Work travel popped up and I'm gone on {day}. Gonna miss {event} but let's hang when I'm back!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "long",
+            "text": "My job is trying to destroy me. Can't make {event} because of deadline madness. Let's catch up soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "long",
+            "text": "Stuck in meetings all day on {day}. Missing {event} but let's do something this weekend!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "long",
+            "text": "The grind never stops. Can't make {event} because of work stuff. Next time for sure though!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "long",
+            "text": "Work has me by the throat on {day}. Missing {event} but I'm free next week - let's hang!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "formal",
+            "length": "short",
+            "text": "I have a conference call on {day} that conflicts with {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "formal",
+            "length": "long",
+            "text": "I have been scheduled for a conference call on {day} that I cannot miss. Therefore, I will be unable to attend {event}. I hope we can arrange to meet at another time.",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "short",
+            "text": "Video call with the team on {day}. Can't do {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "long",
+            "text": "I have a team video call on {day} that I need to be on. Sorry to miss {event}! Let's catch up afterward.",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "short",
+            "text": "Zoom call on {day}. Missing {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "long",
+            "text": "Got a work call scheduled on {day} so I can't come to {event}. Virtual meetings are ruining my life! Let's hang soon.",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "short",
+            "text": "Training session at work on {day}. Sorry about {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "long",
+            "text": "I have mandatory training at work on {day} so I can't make it to {event}. Let's plan something for next week!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "short",
+            "text": "Corporate training day. Skipping {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "long",
+            "text": "Work is making me do some training thing on {day}. Can't escape for {event}. Let's do something after I survive!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "short",
+            "text": "Performance review on {day}. Can't miss it for {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "long",
+            "text": "I have my performance review on {day} and need to prepare for it. Won't be able to make {event} but let's catch up soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "long",
+            "text": "Performance review time and I'm stressed. Can't make {event} but good luck to my sanity! Let's hang after.",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "short",
+            "text": "On-site with a client on {day}. Missing {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "long",
+            "text": "I have to be on-site with a client on {day} so I can't make it to {event}. Really sorry! Let's reschedule.",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "short",
+            "text": "Client site visit. No {event} for me!",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "long",
+            "text": "Gotta visit a client on {day} so I'm out for {event}. Work never ends! Let's hang when I'm back.",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "short",
+            "text": "Product launch at work keeping me busy. Sorry about {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "long",
+            "text": "We have a major product launch at work and I'm slammed on {day}. Can't make {event} but let's celebrate together after the launch!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "short",
+            "text": "Launch week chaos. Missing {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "long",
+            "text": "It's launch week at work and I'm barely surviving. Can't do {event} but let's party after we ship!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "short",
+            "text": "Working from home but still in meetings. Can't make {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "long",
+            "text": "Even though I'm working from home, I have back-to-back meetings on {day}. Can't slip away for {event}. Let's catch up this weekend!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "long",
+            "text": "WFH but still trapped in meetings all day on {day}. Missing {event} but let's do something soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "short",
+            "text": "Quarter end crunch at work. Sitting out {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "long",
+            "text": "It's quarter end and work is insane. I won't be able to make it to {event} on {day}. Let's plan something for next month!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "short",
+            "text": "Quarter end madness. No {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "long",
+            "text": "Quarter end is here and I'm drowning in work. Can't make {event} but freedom is coming soon - let's hang then!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "short",
+            "text": "Inventory day at work. Missing {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "long",
+            "text": "We have inventory on {day} and I need to be there. Sorry to miss {event}! Let's catch up soon.",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "long",
+            "text": "Inventory day at work and it's gonna be a long one. Missing {event} but let's hang out this weekend!",
             "offersReschedule": true
         }
     ]

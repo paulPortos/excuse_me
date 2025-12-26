@@ -10,8 +10,106 @@
         {
             "category": "family",
             "tone": "formal",
+            "length": "short",
+            "text": "I regret to inform you that a family matter requires my presence, and I cannot attend {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "short",
+            "text": "Unfortunately, I must attend to a family commitment and will be unable to join {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "short",
+            "text": "I must respectfully decline {event} due to a prior family engagement.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "short",
+            "text": "A family obligation prevents me from attending {event}. My sincere apologies.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "short",
+            "text": "I am unable to attend {event} as I have a family responsibility that requires my attention.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "short",
+            "text": "Due to family circumstances, I will not be able to make it to {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "short",
+            "text": "I have a family engagement that conflicts with {event}. Please accept my apologies.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "formal",
             "length": "long",
             "text": "I apologize, but I will not be able to attend {event} on {day}. I have a family commitment that I must honor, and it would be inappropriate for me to miss it. I hope you understand, and I look forward to another opportunity to connect.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "long",
+            "text": "I regret to inform you that I will be unable to attend {event} on {day}. A family matter of some importance requires my presence, and I must prioritize this obligation. I hope we can arrange to meet at a more convenient time.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "long",
+            "text": "Thank you for the invitation to {event}. Unfortunately, I have a family gathering on {day} that I am expected to attend. I hope you understand my situation, and I would be delighted to reschedule.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "long",
+            "text": "I must respectfully decline your invitation to {event} on {day}. My family has planned an important occasion that requires my attendance. I hope this does not cause any inconvenience, and I look forward to future opportunities.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "long",
+            "text": "I am writing to express my regret that I cannot attend {event} on {day}. A family obligation has arisen that demands my presence. I value our relationship and hope we can find another time to meet.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "long",
+            "text": "Please accept my sincere apologies for being unable to attend {event}. I have a family commitment on {day} that I cannot postpone. I would be very pleased to arrange an alternative date.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "long",
+            "text": "I deeply regret that I must decline {event} on {day}. My family requires my presence for an important occasion. I hope you understand, and I would welcome the opportunity to reconnect soon.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "long",
+            "text": "Unfortunately, I will be occupied with family responsibilities on {day} and cannot attend {event}. I apologize for any inconvenience this may cause and hope we can find a suitable alternative.",
             "offersReschedule": true
         },
         {
@@ -24,8 +122,148 @@
         {
             "category": "family",
             "tone": "polite",
+            "length": "short",
+            "text": "I won't be able to come to {event}. Got some family stuff going on.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "short",
+            "text": "Sorry, I have a family event on {day} so I can't make it to {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "short",
+            "text": "I'm sorry but family comes first - I have to skip {event} this time.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "short",
+            "text": "I've got a family obligation that day, so I won't be able to attend {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "short",
+            "text": "My family needs me on {day}, so I'll have to miss {event}. Sorry!",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "short",
+            "text": "I'm tied up with family on {day}, won't be able to make {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "short",
+            "text": "Can't come to {event} - I've got a family commitment. Hope you understand!",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "short",
+            "text": "I have to be with my family on {day}. Sorry I'll miss {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "short",
+            "text": "Family duties are calling - I can't make it to {event}. Sorry!",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "polite",
             "length": "long",
             "text": "I'm really sorry, but I won't be able to come to {event} on {day}. I have a family gathering that I can't miss. I hope you understand! Let's definitely plan something soon.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "long",
+            "text": "I wish I could make it to {event} but my family has something planned for {day} that I really need to be at. Let's catch up another time soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "long",
+            "text": "Thanks for the invite to {event}! Unfortunately, I have a family commitment on {day} that I can't get out of. I'd love to reschedule when you're free!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "long",
+            "text": "I'm sorry but I have to miss {event}. My family is getting together on {day} and I really can't skip it. Can we find another day to hang out?",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "long",
+            "text": "I hate to miss {event}, but my family needs me on {day}. You know how family can be! Let's definitely make plans for another time.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "long",
+            "text": "Sorry, I won't be able to make it to {event} on {day}. I've got a family thing that's been planned for a while. Hope you have a great time, and let's connect soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "long",
+            "text": "I really wanted to come to {event} but my mom/dad has something planned for {day} and I need to be there. Rain check? I'd love to catch up soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "long",
+            "text": "My family has a get-together on {day} that I promised to attend, so I'll have to miss {event}. I'm really sorry! Let's plan something for next week?",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "long",
+            "text": "I can't make it to {event} this time. My grandparents are visiting on {day} and I really should be there. Let's definitely hang out soon though!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "long",
+            "text": "I'm so sorry but {event} falls on the same day as our family dinner. I can't miss it this time. Let's find another time to get together!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "long",
+            "text": "I wish I could be at {event} but we have a family thing happening on {day}. Super bummed to miss it! Can we reschedule?",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "long",
+            "text": "My siblings are coming to town on {day} so I need to be with family instead of going to {event}. Hope you understand! Let's meet up soon.",
             "offersReschedule": true
         },
         {
@@ -38,8 +276,407 @@
         {
             "category": "family",
             "tone": "casual",
+            "length": "short",
+            "text": "Gonna have to skip {event} - family time!",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "short",
+            "text": "Can't come, fam needs me. Sorry!",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "short",
+            "text": "Family thing on {day}, gotta pass on {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "short",
+            "text": "No can do - family obligations. Next time!",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "short",
+            "text": "Stuck with the fam on {day}. Catch ya later!",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "short",
+            "text": "Parents are dragging me to a family thing. Can't escape!",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "short",
+            "text": "Family stuff came up. Gonna miss {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "short",
+            "text": "Got roped into family time. Sorry dude!",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "short",
+            "text": "The fam needs me on {day}. Gotta bail on {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "short",
+            "text": "Family duties call! Can't make {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "short",
+            "text": "Mom's got plans for me on {day}. Sorry!",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "casual",
             "length": "long",
             "text": "Hey, I really wish I could come to {event} but my family has this thing and I kinda have to be there. You know how it is! Let's catch up soon though!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "long",
+            "text": "Dude, I'm so bummed but I gotta skip {event}. Family stuff on {day} that I can't get out of. Let's hang next week!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "long",
+            "text": "Ugh, family is making me go to some thing on {day}. Gonna miss {event}. Total bummer. Let's do something soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "long",
+            "text": "My parents are hosting something on {day} and I gotta be there. Sorry I'll miss {event}! Rain check?",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "long",
+            "text": "Family reunion stuff happening on {day} so I can't make it to {event}. Super annoying but what can you do! Let's hang soon.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "long",
+            "text": "Can't make {event} - got stuck with family plans on {day}. Would rather hang with you tbh! Next time for sure.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "long",
+            "text": "Hey! Wish I could come to {event} but the fam has dibs on me that day. Let's totally reschedule though!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "long",
+            "text": "My grandparents are visiting on {day} so I gotta be home. Going to miss {event} but let's catch up right after!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "long",
+            "text": "Family dinner is on {day} and I can't skip it. Sorry about {event}! Let me know when you're free next.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "long",
+            "text": "Got trapped into a family thing on {day}. Can't escape for {event}. Let's plan something for next weekend!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "long",
+            "text": "My aunt and uncle are coming over on {day} so the fam's got me locked down. Gonna miss {event} but hit me up later!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "long",
+            "text": "Family is doing their thing on {day} and I have to show face. Sorry about {event}! Let's definitely make plans soon.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "short",
+            "text": "I have been called to attend to a family matter and cannot be present at {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "short",
+            "text": "A family situation requires my attention on {day}. I will be unable to attend {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "long",
+            "text": "I appreciate the invitation to {event}. However, I have a family responsibility on {day} that takes precedence. I hope you understand my situation and we can connect at a later date.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "long",
+            "text": "Thank you for including me in {event}. Regrettably, I have a family function on {day} that I am obligated to attend. I would be happy to meet at another time that suits us both.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "short",
+            "text": "I've got family plans on {day} that I can't change. Sorry about {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "short",
+            "text": "Need to be with family on {day}. Will miss {event} unfortunately.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "long",
+            "text": "I'm sorry I can't make it to {event}. We have relatives visiting on {day} and it's been planned for ages. Let's definitely catch up afterward!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "long",
+            "text": "My cousin's birthday is on {day} and the whole family is expected to be there. I'll have to miss {event} but I'd love to see you another time!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "short",
+            "text": "Relatives in town. Can't come to {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "short",
+            "text": "It's family day on {day}. Gotta skip {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "long",
+            "text": "My cousin is having a thing on {day} and my mom won't let me skip. Gonna miss {event} but let's hang soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "long",
+            "text": "Extended family is all coming over on {day}. It's a whole thing. Can't make {event} but count me in next time!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "short",
+            "text": "My family has requested my presence on {day}. I must decline {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "long",
+            "text": "I must inform you that family obligations make it impossible for me to attend {event} on {day}. I deeply value this relationship and hope we can arrange an alternative meeting soon.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "short",
+            "text": "Family is visiting from out of town. Won't make it to {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "long",
+            "text": "I have a family birthday celebration on {day} that I've committed to. Really sorry to miss {event}! Can we do something next week instead?",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "short",
+            "text": "Birthday party for my nephew. Gotta skip {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "long",
+            "text": "There's a birthday thing at my house on {day} for one of my relatives. Family first, ya know? Let's hang after!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "short",
+            "text": "My parents are having people over on {day}. Can't make {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "long",
+            "text": "Mom and dad are hosting a family dinner on {day} and attendance is mandatory. I'll have to miss {event} this time. Let's reschedule!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "short",
+            "text": "Helping my parents with something on {day}. Missing {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "long",
+            "text": "Gotta help my folks with a family thing on {day}. Annoying but necessary! Catch you at {event} next time.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "short",
+            "text": "I have a familial engagement on {day} that precludes my attendance at {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "long",
+            "text": "It is with regret that I must decline {event}. My family has organized a gathering on {day}, and my presence is expected. I sincerely hope we can reschedule at your earliest convenience.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "short",
+            "text": "Taking care of a family member on {day}. Sorry about {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "long",
+            "text": "I need to help my grandma with some things on {day}, so I won't be able to attend {event}. I hope to see you soon though!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "short",
+            "text": "Looking after my little sibling. Can't do {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "long",
+            "text": "I'm babysitting duty on {day} because everyone else is busy. Can't make {event} but let's plan something soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "short",
+            "text": "We have a family anniversary celebration. Will miss {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "long",
+            "text": "It's my parents' anniversary on {day} and we're doing a special dinner. I won't be able to make {event} but let's catch up soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "long",
+            "text": "Parents' anniversary dinner is on {day} and it's a big deal. Gonna miss {event} but hit me up for next time!",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "long",
+            "text": "I must attend a family celebration on {day} honoring a significant milestone. I am therefore unable to join {event}. I trust you understand and hope to arrange an alternative time.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "short",
+            "text": "We're celebrating my sibling's graduation. Can't make {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "long",
+            "text": "My sister's graduation is on {day} and the whole family is gathering. I really wish I could come to {event}! Let's plan something after.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "long",
+            "text": "Bro is graduating on {day} so I gotta be there. Missing {event} but let's do something after the weekend!",
             "offersReschedule": true
         }
     ]

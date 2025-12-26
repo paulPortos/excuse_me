@@ -10,8 +10,120 @@
         {
             "category": "general",
             "tone": "formal",
+            "length": "short",
+            "text": "Unfortunately, I am unable to attend {event} due to a scheduling conflict.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "short",
+            "text": "I must regretfully decline your invitation to {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "short",
+            "text": "I am unable to attend {event} as I have a conflicting obligation.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "short",
+            "text": "I regret to inform you that I cannot be present at {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "short",
+            "text": "Please accept my apologies, but I will not be able to attend {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "short",
+            "text": "An unavoidable commitment prevents me from attending {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "short",
+            "text": "I have an engagement on {day} that precludes my attendance at {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "short",
+            "text": "Circumstances prevent me from joining {event}. My apologies.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "short",
+            "text": "I will not be available for {event} on {day}. Please excuse my absence.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "formal",
             "length": "long",
             "text": "I regret to inform you that I will be unable to attend {event} on {day}. An unforeseen circumstance has arisen that requires my attention. I apologize for any inconvenience and hope we can find another time to connect.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "long",
+            "text": "Thank you for the invitation to {event}. Unfortunately, a prior commitment on {day} prevents me from attending. I would be very pleased to arrange an alternative time to meet.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "long",
+            "text": "I appreciate you thinking of me for {event}. Regrettably, I have an existing obligation on {day} that I cannot reschedule. I hope you understand and look forward to future opportunities.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "long",
+            "text": "It is with sincere regret that I must decline {event} on {day}. An unavoidable matter requires my attention. I value this opportunity and hope we can arrange an alternative.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "long",
+            "text": "I must express my regret that I cannot attend {event}. A matter of importance has arisen on {day} that demands my presence. I trust you understand and hope to connect soon.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "long",
+            "text": "Please accept my apologies for being unable to join {event} on {day}. An unexpected situation has developed that requires my immediate attention. I would welcome the opportunity to reschedule.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "long",
+            "text": "I am writing to inform you that I will not be able to attend {event} due to a conflict in my schedule on {day}. I apologize sincerely and hope we can find a mutually convenient time.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "long",
+            "text": "Unfortunately, pressing matters prevent me from attending {event} on {day}. I deeply regret any inconvenience this may cause and remain hopeful that we can meet at another time.",
             "offersReschedule": true
         },
         {
@@ -24,8 +136,148 @@
         {
             "category": "general",
             "tone": "polite",
+            "length": "short",
+            "text": "I can't make it to {event}. Sorry about that!",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "short",
+            "text": "Sorry, I have something on {day} and can't attend {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "short",
+            "text": "I wish I could come to {event} but I'm not available on {day}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "short",
+            "text": "Unfortunately, I can't make it to {event}. Hope you understand!",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "short",
+            "text": "I'm not going to be able to come to {event}. Something came up.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "short",
+            "text": "Can't join you for {event}. Sorry to miss it!",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "short",
+            "text": "I've got a conflict on {day}. Won't make it to {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "short",
+            "text": "Sorry, {day} doesn't work for me. Can't do {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "short",
+            "text": "I'm busy on {day} so I'll have to skip {event}. Sorry!",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "short",
+            "text": "Won't be able to attend {event}. Something's come up.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "short",
+            "text": "I have other plans on {day}. Sorry I'll miss {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "polite",
             "length": "long",
             "text": "I'm really sorry, but I won't be able to make it to {event} on {day}. Something unexpected came up and I need to take care of it. I hope you understand, and I'd love to reschedule!",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "long",
+            "text": "Thanks for the invite to {event}! I really wish I could be there, but I've got something else going on {day}. Let's definitely catch up soon though!",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "long",
+            "text": "I'm sorry but I can't make it to {event} this time. I already have something planned for {day}. Can we find another time to meet up?",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "long",
+            "text": "I hate to miss {event}, but I've got a prior commitment on {day} that I can't get out of. Let's plan something for another day!",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "long",
+            "text": "Something came up on {day} and I won't be able to come to {event}. I'm really sorry! Hopefully we can reschedule soon.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "long",
+            "text": "I wish I could join you for {event}, but {day} just doesn't work for me. Rain check? I'd love to catch up another time!",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "long",
+            "text": "Thanks for thinking of me for {event}! Unfortunately, I'm tied up on {day}. Let me know when you're free next and let's make plans!",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "long",
+            "text": "I can't make it to {event} because I've got something I can't move on {day}. Super bummed to miss it! Let's hang out soon though.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "long",
+            "text": "Really sorry but I have to pass on {event}. Got a conflict on {day} that I can't change. Let's definitely do something else soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "long",
+            "text": "I'm not going to be able to make {event} on {day}. Something else came up that I need to handle. Hope you have fun, and let's catch up after!",
             "offersReschedule": true
         },
         {
@@ -38,8 +290,386 @@
         {
             "category": "general",
             "tone": "casual",
+            "length": "short",
+            "text": "Can't come to {event}. Got stuff going on!",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "short",
+            "text": "Gonna have to skip {event}. Something came up.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "short",
+            "text": "Not gonna make it to {event}. Sorry!",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "short",
+            "text": "Gotta pass on {event}. Busy that day!",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "short",
+            "text": "{day} is no good for me. Can't do {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "short",
+            "text": "Something popped up. Skipping {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "short",
+            "text": "Can't swing {event} this time. Sorry dude!",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "short",
+            "text": "Busy on {day}. Missing {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "short",
+            "text": "Nah, can't make {event}. Got other plans.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "short",
+            "text": "Won't be there for {event}. Catch ya next time!",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "short",
+            "text": "Pass on {event}. Something else going on.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "casual",
             "length": "long",
             "text": "Hey, really sorry but I can't come to {event}. Something came up last minute and I gotta deal with it. Let's catch up soon though!",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "long",
+            "text": "Dude I'm so bummed but I gotta skip {event}. Got something on {day} I can't move. Let's hang soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "long",
+            "text": "Can't make it to {event} - got stuff going on. Super annoying! Hit me up for next time though.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "long",
+            "text": "Ugh something came up on {day} so I can't do {event}. Let's reschedule soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "long",
+            "text": "Hey, not gonna make {event}. Already have plans for {day}. Let's catch up another time!",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "long",
+            "text": "Wish I could come to {event} but {day} doesn't work. Rain check? Let's do something soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "long",
+            "text": "Something popped up and I gotta deal with it. Missing {event} but let's hang after!",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "long",
+            "text": "Can't swing {event} this time around. Got other stuff to handle. Next time for sure!",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "long",
+            "text": "Gonna have to pass on {event}. {day} is packed for me. Let's plan something else soon though!",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "long",
+            "text": "Hey! Can't make {event} because something came up. Bummed about it but let's catch up soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "short",
+            "text": "Due to unforeseen circumstances, I must decline {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "short",
+            "text": "I have a prior engagement and cannot attend {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "long",
+            "text": "I am grateful for the invitation to {event}. However, I have a scheduling conflict on {day} that I am unable to resolve. I hope we can arrange to meet at a more suitable time.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "long",
+            "text": "Thank you for including me in {event}. Regrettably, a prior commitment on {day} takes precedence. I would be honored to reschedule at your earliest convenience.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "short",
+            "text": "Something unexpected came up. Can't make {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "short",
+            "text": "I'm tied up on {day}. Sorry I can't join {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "long",
+            "text": "An unexpected situation came up on {day} that I need to handle. I'm really sorry to miss {event}! Can we reschedule for next week?",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "long",
+            "text": "I had something come up last minute and can't make it to {event}. So sorry about this! Let's definitely find another time.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "short",
+            "text": "Things came up. Skipping {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "short",
+            "text": "Life happened. Can't do {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "long",
+            "text": "Life got crazy and I can't make it to {event}. Sorry! We should hang out soon though.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "long",
+            "text": "Things are hectic on {day} so I'm gonna miss {event}. Let's chill another time!",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "short",
+            "text": "A matter requiring my attention prevents me from joining {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "long",
+            "text": "An important matter has arisen that requires my immediate attention on {day}. As such, I will be unable to attend {event}. I sincerely apologize and hope to connect with you soon.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "short",
+            "text": "Got something I need to handle. Missing {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "long",
+            "text": "I've got something important to take care of on {day} so I won't be able to come to {event}. Super sorry! Let's plan something soon.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "short",
+            "text": "Dealing with stuff. No {event} for me.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "long",
+            "text": "Got some stuff to handle on {day} so I can't hit up {event}. Bummer! Let's do something next week.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "short",
+            "text": "Personal matters prevent my attendance at {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "long",
+            "text": "I must attend to personal matters on {day} and will therefore be unable to join {event}. I apologize for any inconvenience and look forward to reconnecting.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "short",
+            "text": "Personal stuff came up. Can't make {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "long",
+            "text": "I've got some personal things to handle on {day} so I won't be able to make it to {event}. Sorry about that! Let's catch up soon.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "short",
+            "text": "Personal stuff. Gotta skip {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "long",
+            "text": "Got some personal stuff going on so I can't come to {event}. Hit me up for next time though!",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "short",
+            "text": "I have made other arrangements for {day} and cannot attend {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "long",
+            "text": "I have already committed to other arrangements on {day} and will be unable to attend {event}. I regret any inconvenience this may cause and hope to join you on another occasion.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "short",
+            "text": "Already have plans on {day}. Can't do {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "long",
+            "text": "I've already made plans for {day} so I won't be able to come to {event}. Sorry to miss it! Let's do something another time.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "short",
+            "text": "Already got plans. Missing {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "long",
+            "text": "I already have stuff going on {day} so I can't make {event}. Let's hang out another time though!",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "short",
+            "text": "Double-booked on {day}. Sorry about {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "long",
+            "text": "I accidentally double-booked myself on {day} and can't make it to {event}. So sorry! Let's definitely reschedule.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "short",
+            "text": "Totally double-booked. Can't do {event}!",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "long",
+            "text": "Ugh I double-booked myself like an idiot. Can't make {event}. Let's do something else soon!",
             "offersReschedule": true
         }
     ]
