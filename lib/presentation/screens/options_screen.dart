@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'package:excuse_me/core/theme/app_theme.dart';
+import 'package:excuse_me/core/utils/haptics.dart';
+import 'package:excuse_me/core/utils/page_transitions.dart';
 import 'package:excuse_me/presentation/screens/result_screen.dart';
 import 'package:excuse_me/presentation/viewmodels/excuse_providers.dart';
 import 'package:excuse_me/presentation/widgets/primary_button.dart';
@@ -46,7 +48,10 @@ class OptionsScreen extends ConsumerWidget {
               const SizedBox(height: 12),
               ToneSelector(
                 selectedTone: state.selectedTone,
-                onChanged: notifier.setTone,
+                onChanged: (tone) {
+                  Haptics.lightTap();
+                  notifier.setTone(tone);
+                },
               ),
 
               const SizedBox(height: AppTheme.paddingXL),
@@ -64,7 +69,10 @@ class OptionsScreen extends ConsumerWidget {
               const SizedBox(height: 12),
               LengthSelector(
                 selectedLength: state.selectedLength,
-                onChanged: notifier.setLength,
+                onChanged: (length) {
+                  Haptics.lightTap();
+                  notifier.setLength(length);
+                },
               ),
 
               const SizedBox(height: AppTheme.paddingXL),
@@ -99,7 +107,10 @@ class OptionsScreen extends ConsumerWidget {
                     ),
                     Switch(
                       value: state.wantReschedule,
-                      onChanged: notifier.setReschedule,
+                      onChanged: (value) {
+                        Haptics.lightTap();
+                        notifier.setReschedule(value);
+                      },
                     ),
                   ],
                 ),
@@ -117,10 +128,9 @@ class OptionsScreen extends ConsumerWidget {
                   if (context.mounted) {
                     final newState = ref.read(excuseNotifierProvider);
                     if (newState.generatedExcuse != null) {
+                      Haptics.success();
                       Navigator.of(context).push(
-                        MaterialPageRoute(
-                          builder: (context) => const ResultScreen(),
-                        ),
+                        SlidePageRoute(page: const ResultScreen()),
                       );
                     }
                   }
