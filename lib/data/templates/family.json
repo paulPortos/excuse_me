@@ -1,0 +1,46 @@
+{
+    "templates": [
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "short",
+            "text": "I apologize, but I have a family obligation on {day} and will not be able to attend {event}.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "formal",
+            "length": "long",
+            "text": "I apologize, but I will not be able to attend {event} on {day}. I have a family commitment that I must honor, and it would be inappropriate for me to miss it. I hope you understand, and I look forward to another opportunity to connect.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "short",
+            "text": "I'm sorry, but I can't make it to {event}. I have a family thing I need to attend.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "polite",
+            "length": "long",
+            "text": "I'm really sorry, but I won't be able to come to {event} on {day}. I have a family gathering that I can't miss. I hope you understand! Let's definitely plan something soon.",
+            "offersReschedule": true
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "short",
+            "text": "Hey, can't make it. Got family stuff going on.",
+            "offersReschedule": false
+        },
+        {
+            "category": "family",
+            "tone": "casual",
+            "length": "long",
+            "text": "Hey, I really wish I could come to {event} but my family has this thing and I kinda have to be there. You know how it is! Let's catch up soon though!",
+            "offersReschedule": true
+        }
+    ]
+}

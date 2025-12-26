@@ -1,6 +1,6 @@
 /// Template repository for loading and caching excuse templates.
 ///
-/// Loads templates from local JSON asset and provides filtered access.
+/// Loads templates from multiple local JSON assets and provides filtered access.
 library;
 
 import 'dart:convert';
@@ -12,12 +12,19 @@ import 'package:excuse_me/domain/entities/excuse_options.dart';
 
 /// Repository for accessing excuse templates.
 class TemplateRepository {
-  static const String _templatePath = 'lib/data/templates/templates.json';
+  /// Template file paths organized by category.
+  static const List<String> _templatePaths = [
+    'lib/data/templates/work.json',
+    'lib/data/templates/school.json',
+    'lib/data/templates/social.json',
+    'lib/data/templates/family.json',
+    'lib/data/templates/general.json',
+  ];
 
   /// Cached templates, loaded on first access.
   List<ExcuseTemplate>? _cachedTemplates;
 
-  /// Loads all templates from the JSON asset.
+  /// Loads all templates from all JSON assets.
   ///
   /// Templates are cached after first load.
   Future<List<ExcuseTemplate>> loadTemplates() async {
@@ -25,15 +32,31 @@ class TemplateRepository {
       return _cachedTemplates!;
     }
 
-    final jsonString = await rootBundle.loadString(_templatePath);
-    final jsonData = json.decode(jsonString) as Map<String, dynamic>;
-    final templateList = jsonData['templates'] as List<dynamic>;
+    final allTemplates = <ExcuseTemplate>[];
 
-    _cachedTemplates = templateList
-        .map((t) => ExcuseTemplate.fromJson(t as Map<String, dynamic>))
-        .toList();
+    for (final path in _templatePaths) {
+      final templates = await _loadTemplatesFromFile(path);
+      allTemplates.addAll(templates);
+    }
 
+    _cachedTemplates = allTemplates;
     return _cachedTemplates!;
+  }
+
+  /// Loads templates from a single JSON file.
+  Future<List<ExcuseTemplate>> _loadTemplatesFromFile(String path) async {
+    try {
+      final jsonString = await rootBundle.loadString(path);
+      final jsonData = json.decode(jsonString) as Map<String, dynamic>;
+      final templateList = jsonData['templates'] as List<dynamic>;
+
+      return templateList
+          .map((t) => ExcuseTemplate.fromJson(t as Map<String, dynamic>))
+          .toList();
+    } catch (e) {
+      // Return empty list if file fails to load
+      return [];
+    }
   }
 
   /// Gets templates filtered by the specified criteria.

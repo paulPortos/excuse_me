@@ -1,0 +1,46 @@
+{
+    "templates": [
+        {
+            "category": "work",
+            "tone": "formal",
+            "length": "short",
+            "text": "I regret to inform you that I will be unable to attend {event}. I have a prior work commitment that requires my attention.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "formal",
+            "length": "long",
+            "text": "I regret to inform you that I will be unable to attend {event} on {day}. Due to an urgent work matter that requires my immediate attention, I must respectfully decline. I apologize for any inconvenience this may cause and hope we can find another opportunity to connect.",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "short",
+            "text": "I'm sorry, but I won't be able to make it to {event}. I have a work deadline I need to meet.",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "polite",
+            "length": "long",
+            "text": "I'm sorry, but I won't be able to make it to {event} on {day}. Something urgent came up at work and I really need to take care of it. I hope you understand, and I'd love to catch up soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "short",
+            "text": "Hey, can't make it to {event}. Work stuff came up. Sorry!",
+            "offersReschedule": false
+        },
+        {
+            "category": "work",
+            "tone": "casual",
+            "length": "long",
+            "text": "Hey, really sorry but I can't make it to {event}. My boss just dropped a last-minute project on me and I gotta handle it. Rain check? Let's catch up soon!",
+            "offersReschedule": true
+        }
+    ]
+}

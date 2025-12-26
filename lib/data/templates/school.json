@@ -1,0 +1,46 @@
+{
+    "templates": [
+        {
+            "category": "school",
+            "tone": "formal",
+            "length": "short",
+            "text": "I apologize, but I will not be able to attend {event}. I have academic obligations that require my attention.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "formal",
+            "length": "long",
+            "text": "I apologize, but I will not be able to attend {event} on {day}. I have an important exam to prepare for and must dedicate my time to studying. I hope you understand, and I would be happy to reschedule at a more convenient time.",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "short",
+            "text": "I'm sorry, but I can't make it to {event}. I have a big exam coming up that I need to study for.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "polite",
+            "length": "long",
+            "text": "I'm sorry, but I won't be able to make it to {event} on {day}. I have finals coming up and really need to focus on studying. I hope you understand! Let's definitely catch up after exam week.",
+            "offersReschedule": true
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "short",
+            "text": "Sorry, can't come to {event}. Got a huge test to study for.",
+            "offersReschedule": false
+        },
+        {
+            "category": "school",
+            "tone": "casual",
+            "length": "long",
+            "text": "Ugh, I really wanted to come to {event} but I've got this massive assignment due and I haven't even started. Next time for sure though!",
+            "offersReschedule": true
+        }
+    ]
+}

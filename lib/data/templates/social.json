@@ -1,0 +1,46 @@
+{
+    "templates": [
+        {
+            "category": "social",
+            "tone": "formal",
+            "length": "short",
+            "text": "Thank you for the invitation to {event}. Unfortunately, I have a prior commitment and will not be able to attend.",
+            "offersReschedule": false
+        },
+        {
+            "category": "social",
+            "tone": "formal",
+            "length": "long",
+            "text": "Thank you very much for the invitation to {event}. I truly appreciate you thinking of me. Unfortunately, I have a prior commitment on {day} that I cannot reschedule. I hope the event goes wonderfully, and I look forward to the next opportunity to join.",
+            "offersReschedule": false
+        },
+        {
+            "category": "social",
+            "tone": "polite",
+            "length": "short",
+            "text": "Thanks for inviting me to {event}! I'm sorry, but I already have plans that day.",
+            "offersReschedule": false
+        },
+        {
+            "category": "social",
+            "tone": "polite",
+            "length": "long",
+            "text": "Thanks so much for inviting me to {event}! I really wish I could be there, but I already have something scheduled for {day}. I hope you all have a great time, and I'd love to catch up soon!",
+            "offersReschedule": true
+        },
+        {
+            "category": "social",
+            "tone": "casual",
+            "length": "short",
+            "text": "Thanks for the invite! Can't make it this time though.",
+            "offersReschedule": false
+        },
+        {
+            "category": "social",
+            "tone": "casual",
+            "length": "long",
+            "text": "Thanks for thinking of me! Really bummed I can't make it to {event}, already got something going on. Have fun though, and let's hang soon!",
+            "offersReschedule": true
+        }
+    ]
+}

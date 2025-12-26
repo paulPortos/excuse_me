@@ -1,0 +1,46 @@
+{
+    "templates": [
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "short",
+            "text": "I regret that I will be unable to attend {event}. I have a prior commitment.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "formal",
+            "length": "long",
+            "text": "I regret to inform you that I will be unable to attend {event} on {day}. An unforeseen circumstance has arisen that requires my attention. I apologize for any inconvenience and hope we can find another time to connect.",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "short",
+            "text": "I'm sorry, but I won't be able to make it to {event}. Something came up.",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "polite",
+            "length": "long",
+            "text": "I'm really sorry, but I won't be able to make it to {event} on {day}. Something unexpected came up and I need to take care of it. I hope you understand, and I'd love to reschedule!",
+            "offersReschedule": true
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "short",
+            "text": "Sorry, can't make it to {event}. Something came up!",
+            "offersReschedule": false
+        },
+        {
+            "category": "general",
+            "tone": "casual",
+            "length": "long",
+            "text": "Hey, really sorry but I can't come to {event}. Something came up last minute and I gotta deal with it. Let's catch up soon though!",
+            "offersReschedule": true
+        }
+    ]
+}
